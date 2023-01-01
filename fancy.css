@@ -3,7 +3,7 @@ b{
 	font-size: larger;
 }
 ul{
-	margin-left: 860px;
+	margin-left: 870px;
 	
 }
 #topbar{
@@ -14,15 +14,26 @@ ul{
 .a{
 padding:20px;
 color:white;
+text-decoration: none;
+}
+.a:hover{
+	color: red;
+}
+.b:hover{
+	color: red;
+}
+.c:hover{
+	color: red;
 }
 .b{
 	padding:20px;
 	color:white;
-	
+	text-decoration: none;
 }
 .c{
 	padding:20px;
 	color:white;
+	text-decoration: none;
 }
 .contain{
 	margin-top: 150px;
@@ -53,4 +64,7 @@ color:grey;
 	padding:10px;
 	border-color: white;
 	color:white;
+}
+.save:hover{
+	color:black;
 }
