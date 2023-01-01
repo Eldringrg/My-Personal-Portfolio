@@ -1,70 +1,119 @@
-b{
-	color: teal;
-	font-size: larger;
-}
-ul{
-	margin-left: 870px;
-	
-}
-#topbar{
-  padding: 8px;
-  background-color: #3A4F7A;
 
+@media only screen  and (min-width:50px){
+	b{
+		color: teal;
+		font-size: larger;
+	}
 }
-.a{
-padding:20px;
-color:white;
-text-decoration: none;
+@media only screen  and (min-width:50px){
+	ul{
+		margin-left: 870px;
+		
+	}
 }
-.a:hover{
-	color: red;
+@media only screen  and (min-width:50px){
+	#topbar{
+		padding: 8px;
+		background-color: #3A4F7A;
+	  
+	  }
 }
-.b:hover{
-	color: red;
-}
-.c:hover{
-	color: red;
-}
-.b{
-	padding:20px;
-	color:white;
-	text-decoration: none;
-}
-.c{
-	padding:20px;
-	color:white;
-	text-decoration: none;
-}
-.contain{
-	margin-top: 150px;
-	display:grid;
-	grid-template-columns: auto auto 10px;
+@media only screen  and (min-width:50px){
 	
+	.a{
+		padding:20px;
+		color:white;
+		text-decoration: none;
+		}
 }
-.aot-footer{
-	float:right;
-	margin-left:200px ;
-	
+@media only screen  and (min-width:50px){
+	.a:hover{
+		color: red;
+	}
 }
-.img-1{
-	border-radius: 20px 20px 20px 20px;
+@media only screen  and (min-width:50px){
+	.b:hover{
+		color: red;
+	}
 }
-.header-style{
-margin-left:200px ;
-margin-top:70px;
+@media only screen  and (min-width:50px){
+	.c:hover{
+		color: red;
+	}
+}
+@media only screen  and (min-width:50px){
+	.b{
+		padding:20px;
+		color:white;
+		text-decoration: none;
+	}
+}
+@media only screen  and (min-width:50px){
+		
+	.c{
+		padding:20px;
+		color:white;
+		text-decoration: none;
+	}
+}
+@media only screen  and (min-width:50px){
+	.contain{
+		margin-top: 150px;
+		display:grid;
+		grid-template-columns: auto auto 10px;
+		
+	}
+}
+@media only screen  and (min-width:50px){
+	.aot-footer{
+		float:right;
+		margin-left:200px ;
+		
+	}
+}
+@media only screen and (min-width:50px){
+	.img-1{
+		border-radius: 20px 20px 20px 20px;
+	}
+}
+@media only screen  and (min-width:50px){
+	.header-style{
+		margin-left:200px ;
+		margin-top:70px;
+		}
+}
+@media only screen  and (min-width:50px){
 }
 .value{
-margin-left:225px;
-color:grey;
+	margin-left:225px;
+	color:grey;
+	}
+@media only screen  and (min-width:50px){
+	.save{
+		margin-left:250px;
+		background-color: #EB455F;
+		border-radius: 10px;
+		padding:10px;
+		border-color: white;
+		color:white;
+	}
 }
-.save{
-	margin-left:250px;
-	background-color: #EB455F;
-	border-radius: 10px;
-	padding:10px;
-	border-color: white;
-	color:white;
-}
+@media only screen  and (min-width:50px){
+
 .save:hover{
 	color:black;
 }
+}
+	
+
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
