@@ -59,7 +59,18 @@ nav ul li a:hover::after{
     margin-top:20px;
 }
 .header-text h1 span{
-    color: #FF5349;
+    color:  #0ef;
+}
+.photo{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+
+}
+.dp img{
+    border:solid;
+    border-color: #0ef;
+border-radius: 20%;
 }
 /* -----about------- */
 #about{
@@ -313,7 +324,7 @@ nav .fas{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image:url(images/phone-background.png);
+        background-image:url(images/thanos.jpg);
     }
     .header-text{
         margin-top:100%;
