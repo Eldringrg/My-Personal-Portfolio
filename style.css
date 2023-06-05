@@ -13,6 +13,9 @@ body{
     height: 100vh;
     
 }
+.header-text  p{
+    color:#FF5349;
+}
 .container{
     padding:10px 10%;
 }
@@ -69,7 +72,7 @@ nav ul li a:hover::after{
 }
 .dp img{
     border:solid;
-    border-color: #0ef;
+    
 border-radius: 20%;
 }
 /* -----about------- */
@@ -324,7 +327,7 @@ nav .fas{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image:url(images/thanos.jpg);
+        background-image:url(images/spice.jpg);
     }
     .header-text{
         margin-top:100%;
