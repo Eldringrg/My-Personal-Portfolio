@@ -128,17 +128,8 @@
             <p>The app connects you to the talented people around the world.Download it from playstore.</p>
         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
     </div>
-    <div class="work">
-        <img src="images/work-3.png">
-        <div class="layer">
-            <h3>
-                Online Shopping App
-            </h3>
-            <p>The app connects you to the talented people around the world.Download it from playstore.</p>
-        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-    </div>
+    
 </div>
-<a href="#" class="btn">See more</a>
 </div>
 </div>
 <!-------------------contact---------------------->
@@ -151,7 +142,6 @@
 <p><i class="fa-solid fa-phone"></i>9816193619</p>
 <div class="social-icons">
     <a href="https://www.facebook.com/Eldrin Gurung"><i class="fab fa-facebook"></i></a>
-    <a href=""><i class="fab fa-twitter-square"></i></a>
     <a href=""><i class="fab fa-instagram"></i></a>
     <a href=""><i class="fab fa-linkedin"></i></a>
 </div>
@@ -198,19 +188,13 @@ sidemenu.style.right="-200px";
     }
 </script>
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwU1Ffck477Qj0-NsHI9Rl1H0TCZI0VSceLB9ldp7tlYkAcPAYPghZeXyjY6TSQTMkh/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwntN74TaOAMn4YCXwkz2daE5FyBr_sQdkFbC-uRdnKc4_PTyHzAqa3uc_YMBBlag6U/exec'
     const form = document.forms['submit-to-google-sheet']
-  const msg=document.getElementsById("msg")
+ 
     form.addEventListener('submit', e => {
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {msg.innerHTML="Message sent successfully"
-        setTimeout(function(){
-            msg.innerHTML=" " 
-        },5000)
-        form.reset()
-    }
-        )
+        .then(response=> console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
     })
   </script>
